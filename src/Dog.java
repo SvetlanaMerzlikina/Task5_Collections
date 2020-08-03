@@ -9,6 +9,10 @@ public class Dog extends Collections{
         this.color = color;
     }
 
+    public int getAge() {
+        return age;
+    }
+
     @Override
     public String toString() {
         return "Dog{" +

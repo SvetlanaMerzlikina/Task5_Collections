@@ -11,6 +11,10 @@ public class Duck extends Collections {
         this.sex = sex;
     }
 
+    public int getAge() {
+        return age;
+    }
+
     @Override
     public String toString() {
         return "Duck{" +

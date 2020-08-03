@@ -11,6 +11,9 @@ public class Cat extends Collections{
         this.color = color;
     }
 
+    public int getAge() {
+        return age;
+    }
 
     @Override
     public String toString() {
